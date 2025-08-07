@@ -2,7 +2,8 @@ public class StringLab {
 
 	public static void main(String[] args) {
 //		findStringSize();
-		accessCharacter();
+//		accessCharacter();
+		extractSubstring();
 	}
 
 	//	Exercise 1: Finding the String's Size
@@ -17,6 +18,13 @@ public class StringLab {
 		String message = "Keep learning!";
 		char character = message.charAt(5);
 		System.out.println("The character at index 5 is: " + character);
+	}
+
+	//	Exercise 3: Extracting a Part of a String
+	static void extractSubstring() {
+		String statement = "Java is powerful.";
+		String part = statement.substring(5, 7);
+		System.out.println("The extracted substring is: " + part);
 	}
 
 }
