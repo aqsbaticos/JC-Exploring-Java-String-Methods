@@ -7,7 +7,8 @@ public class StringLab {
 //		changeCase();
 //		findIndex();
 //		compareStrings();
-		replaceCharacters();
+//		replaceCharacters();
+		removeWhitespace();
 	}
 
 	//	Exercise 1: Finding the String's Size
@@ -72,6 +73,15 @@ public class StringLab {
 		String replaced = original.replace("cats", "dogs");
 		System.out.println("Original: " + original);
 		System.out.println("Replaced: " + replaced);
+	}
+
+	//	Exercise 8: Removing Whitespace
+	static void removeWhitespace() {
+		String padded = "   Lots of spaces   ";
+		String trimmed = padded.trim();
+		System.out.println("Padded string length: " + padded.length());
+		System.out.println("Trimmed string: '" + trimmed + "'");
+		System.out.println("Trimmed string length: " + trimmed.length());
 	}
 
 }

@@ -107,3 +107,18 @@ Developed by: Baticos, Andric Quinn S.
 ![Screenshot Proof](/ss/e7-o.png?raw=true "exercise-7-output")
 
 **Observation**: _As expected, the string "cats" was replaced by "dogs"._
+
+---
+### Exercise 8: `trim()` - Removing  Whitespace
+
+**Code Snippet**
+
+![Screenshot Proof](/ss/e8-cs.png?raw=true "exercise-8-code-snippet")
+
+**Prediction**: _This code will remove the whitespace before and after 'Lots of spaces'. The length printed will be: 20 & 14._
+
+**Output**
+
+![Screenshot Proof](/ss/e8-o.png?raw=true "exercise-8-output")
+
+**Observation**: _As expected, the whitespaces were removed and reduced the length of the string._
