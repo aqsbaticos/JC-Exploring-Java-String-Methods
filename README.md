@@ -77,3 +77,18 @@ Developed by: Baticos, Andric Quinn S.
 ![Screenshot Proof](/ss/e5-o.png?raw=true "exercise-5-output")
 
 **Observation**: _As expected, the value returned by indexOf() were 16 (first index 'f' when fox matches, 37 (match z), and -1 (no match)._
+
+---
+### Exercise 6: `equals()` vs. `equalsIgnoreCase()` - Comparing Strings
+
+**Code Snippet**
+
+![Screenshot Proof](/ss/e6-cs.png?raw=true "exercise-6-code-snippet")
+
+**Prediction**: _This code will output the values false, true, and true._
+
+**Output**
+
+![Screenshot Proof](/ss/e6-o.png?raw=true "exercise-6-output")
+
+**Observation**: _As expected, the values returned by equals() were false and true, and the value returned by equalsIgnoreCase() was true._
