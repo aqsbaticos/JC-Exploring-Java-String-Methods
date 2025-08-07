@@ -4,7 +4,8 @@ public class StringLab {
 //		findStringSize();
 //		accessCharacter();
 //		extractSubstring();
-		changeCase();
+//		changeCase();
+		findIndex();
 	}
 
 	//	Exercise 1: Finding the String's Size
@@ -35,6 +36,17 @@ public class StringLab {
 		String lower = mixedCase.toLowerCase();
 		System.out.println("Uppercase: " + upper);
 		System.out.println("Lowercase: " + lower);
+	}
+
+	//	Exercise 5: Finding a Character or Substring
+	static void findIndex() {
+		String sentence = "The quick brown fox jumps over the lazy dog.";
+		int indexOfFox = sentence.indexOf("fox");
+		int indexOfZ = sentence.indexOf('z');
+		int indexOfCat = sentence.indexOf("cat");
+		System.out.println("Index of 'fox': " + indexOfFox);
+		System.out.println("Index of 'z': " + indexOfZ);
+		System.out.println("Index of 'cat': " + indexOfCat);
 	}
 
 }

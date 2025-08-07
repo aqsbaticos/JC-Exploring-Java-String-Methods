@@ -62,3 +62,18 @@ Developed by: Baticos, Andric Quinn S.
 ![Screenshot Proof](/ss/e4-o.png?raw=true "exercise-4-output")
 
 **Observation**: _As expected, the value returned by the toUpperCase() and toLowerCase() methods were "THIS IS A TEST" and "this is a test" respectively._
+
+---
+### Exercise 5: `indexOf()` - Finding a Character or Substring
+
+**Code Snippet**
+
+![Screenshot Proof](/ss/e5-cs.png?raw=true "exercise-5-code-snippet")
+
+**Prediction**: _This code will output the indexes 16, 37, and -1._
+
+**Output**
+
+![Screenshot Proof](/ss/e5-o.png?raw=true "exercise-5-output")
+
+**Observation**: _As expected, the value returned by indexOf() were 16 (first index 'f' when fox matches, 37 (match z), and -1 (no match)._
