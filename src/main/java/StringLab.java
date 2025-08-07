@@ -6,7 +6,8 @@ public class StringLab {
 //		extractSubstring();
 //		changeCase();
 //		findIndex();
-		compareStrings();
+//		compareStrings();
+		replaceCharacters();
 	}
 
 	//	Exercise 1: Finding the String's Size
@@ -63,6 +64,14 @@ public class StringLab {
 		System.out.println("\"Java\".equals(\"java\"): " + isEqual1);
 		System.out.println("\"Java\".equals(\"Java\"): " + isEqual2);
 		System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " + isEqualIgnoreCase);
+	}
+
+	//	Exercise 7: Replacing Characters
+	static void replaceCharacters() {
+		String original = "I like cats. Cats are cute.";
+		String replaced = original.replace("cats", "dogs");
+		System.out.println("Original: " + original);
+		System.out.println("Replaced: " + replaced);
 	}
 
 }

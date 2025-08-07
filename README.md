@@ -92,3 +92,18 @@ Developed by: Baticos, Andric Quinn S.
 ![Screenshot Proof](/ss/e6-o.png?raw=true "exercise-6-output")
 
 **Observation**: _As expected, the values returned by equals() were false and true, and the value returned by equalsIgnoreCase() was true._
+
+---
+### Exercise 7: `replace()` - Replacing Characters
+
+**Code Snippet**
+
+![Screenshot Proof](/ss/e7-cs.png?raw=true "exercise-7-code-snippet")
+
+**Prediction**: _This code will output the new string "I like dogs. Cats are cute"._
+
+**Output**
+
+![Screenshot Proof](/ss/e7-o.png?raw=true "exercise-7-output")
+
+**Observation**: _As expected, the string "cats" was replaced by "dogs"._
